@@ -7,7 +7,12 @@
 SoftUni course JavaScript Advanced - February 2018: All tasks with their solutions.
 
 ## Course content:
-
+- Advanced Functions
+- Unit Testing
+- Js Classes
+- Object Composition
+- jQuery
+- DOM Manipulation
 
 ## Repository content:
 
@@ -15,4 +20,4 @@ SoftUni course JavaScript Advanced - February 2018: All tasks with their solutio
 
 №   |Tasks							|Descriptions																							| Labs																													| Exercises																													|Progress																													
 :--:|-------------------------------|:-----------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:-------------:
-1	|Syntax and Operators			|[Description]		|[Lab]				|[Exercises]		|![Progress](http://progressed.io/bar/100?title=completed)
+1	|Advanced Functions				|[Description]		|[Lab]				|[Exercises]		|![Progress](http://progressed.io/bar/100?title=completed)
