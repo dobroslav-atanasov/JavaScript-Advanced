@@ -20,4 +20,4 @@ SoftUni course JavaScript Advanced - February 2018: All tasks with their solutio
 
 №   |Tasks							|Descriptions																							| Labs																													| Exercises																													|Progress																													
 :--:|-------------------------------|:-----------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:-------------:
-1	|Advanced Functions				|[Description](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/Resources)			|[Lab]				|[Exercises]		|![Progress](http://progressed.io/bar/100?title=completed)
+1	|Advanced Functions				|[Description](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/Resources)			|[Lab](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/01.AdvancedFunctions-Lab)					|[Exercises]		|![Progress](http://progressed.io/bar/100?title=completed)
