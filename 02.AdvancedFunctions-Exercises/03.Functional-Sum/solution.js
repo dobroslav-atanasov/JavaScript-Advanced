@@ -1,15 +1,16 @@
-function add(number) {
-    let sum = number;
+const add = (function(){
+    let sum = 0;
 
-    function sumNumber(secondNumber) {
-        sum += secondNumber;
+    function sumNumber(num) {
+        sum += num;
         return sumNumber;
     }
 
-    sumNumber.toString = function () {
+    sumNumber.toString = function (){
         return sum;
     }
+
     return sumNumber;
-}
+})();
 
 console.log(add(1)(2)(6));
