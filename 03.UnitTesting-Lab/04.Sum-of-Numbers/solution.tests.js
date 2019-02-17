@@ -9,9 +9,7 @@ describe('sum', function () {
 
         assert.equal(result, 15);
     });
-});
 
-describe('sum', function () {
     it('should return sum', function () {
         let arr = [1];
 
@@ -19,9 +17,7 @@ describe('sum', function () {
 
         assert.equal(result, 1);
     });
-});
 
-describe('sum', function () {
     it('should return sum', function () {
         let arr = [];
 
