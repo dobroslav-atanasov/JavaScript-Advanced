@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+    <input type="text" id="num1" />
+    <input type="text" id="num2" />
+    <input type="text" id="result" readonly />
+    <br>
+    <button id="sumButton">
+        Sum
+    </button>
+    <button id="subtractButton">
+        Subtract
+    </button>
+    <script>
+        function solve() {
+            let firstNum, secondNum, result;
+            return {
+                init: (firstSelect, secondSelect, resultSelector) => {
+                    firstNum = $(firstSelect);
+                    secondNum = $(secondSelect);
+                    result = $(resultSelector);
+                },
+                add: () => {
+                    let firstValue = +firstNum.val();
+                    let secondValue = +secondNum.val();
+                    result.val(firstValue + secondValue);
+                },
+                subtract: () => {
+                    let firstValue = +firstNum.val();
+                    let secondValue = +secondNum.val();
+                    result.val(firstValue - secondValue);
+                }
+            }
+        }
+    </script>
+</body>
+
+</html
