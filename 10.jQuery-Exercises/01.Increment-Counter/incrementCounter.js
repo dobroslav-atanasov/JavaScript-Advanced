@@ -1,5 +1,3 @@
-/// <reference path="../typings/globals/jquery/index.d.ts" />
-
 function increment(selector) {
     let container = $(selector);
     let fragment = document.createDocumentFragment();
