@@ -1,5 +1,3 @@
-/// <reference path="../typings/globals/jquery/index.d.ts" />
-
 function validate() {
 	$('#submit').on('click', function (e) {
 		e.preventDefault();
@@ -10,7 +8,7 @@ function validate() {
 		} else {
 			$('#username').css('border-color', '');
 		}
-		
+
 		if (!checkEmail()) {
 			$('#email').css('border-color', 'red');
 		} else {
@@ -34,9 +32,19 @@ function validate() {
 		} else {
 			$('#companyNumber').css('border-color', '');
 		}
+
+		if (checkUsername() && checkEmail() && checkPassword() && checkConfirmPassword()) {
+			if ($('#company').is(':checked')) {
+				if (checkCompanyNumber()) {
+					$('#valid').show();
+				}
+			} else {
+				$('#valid').show();
+			}
+		}
 	});
 
-	$('#company').on('change', function(){
+	$('#company').on('change', function () {
 		if ($('#company').is(':checked')) {
 			$('#companyInfo').show();
 		} else {
@@ -52,11 +60,12 @@ function validate() {
 		return false;
 	}
 
-	function checkConfirmPassword() {
+	function checkConfirmPassword() { 
 		let password = $('#password').val();
 		let confirmPassword = $('#confirm-password').val();
 
-		if (password === confirmPassword) {
+		let pattern = /^[\w]{5,15}$/g;
+		if (pattern.test($('#confirm-password').val()) && password === confirmPassword) {
 			return true;
 		}
 		return false;
