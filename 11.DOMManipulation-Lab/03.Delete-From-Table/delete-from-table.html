@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
+        integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <table border="1" id="customers">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>eve@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Nick</td>
+            <td>nick@yahooo.com</td>
+        </tr>
+        <tr>
+            <td>Didi</td>
+            <td>didi@didi.net</td>
+        </tr>
+        <tr>
+            <td>Tedy</td>
+            <td>tedy@tedy.com</td>
+        </tr>
+    </table>
+    Email: <input type="text" name="email" />
+    <button onclick="deleteByEmail()">Delete</button>
+    <div id="result" />
+    <script>
+        function deleteByEmail() {
+            let inputEmail = $('input').val();
+            let trElements = $('#customers tr');
+            let emails = [];
+
+            for (let i = 1; i < trElements.length; i++) {
+                let currentRow = trElements[i].children[1];
+                if (currentRow.textContent === inputEmail) {
+                    emails.push(currentRow);        
+                }                
+            }
+
+            for (const row of emails) {
+                row.parentElement.remove();
+            }
+
+            if (emails.length !== 0) {
+                $('#result').text('Deleted.');
+            } else {
+                $('#result').text('Not found.');
+            }
+        }
+    </script>
+
+</body>
+
+</html>
