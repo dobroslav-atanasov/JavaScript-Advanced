@@ -1,5 +1,3 @@
-/// <reference path="../typings/globals/jquery/index.d.ts" />
-
 function create(sentences) {
     for (let item of sentences) {
         let $divElement = $('<div>');
