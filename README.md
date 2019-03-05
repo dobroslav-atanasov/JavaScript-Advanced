@@ -26,3 +26,9 @@ SoftUni course JavaScript Advanced - February 2018: All tasks with their solutio
 4	|Object Composition				|[Description](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/Resources)			|[Lab](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/07.ObjectComposition-Lab)		|[Exercises](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/08.ObjectComposition-Exercises)			|![Progress](http://progressed.io/bar/100?title=completed)
 5	|jQuery							|[Description](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/Resources)			|[Lab](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/09.jQuery-Lab)					|[Exercises](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/10.jQuery-Exercises)						|![Progress](http://progressed.io/bar/100?title=completed)
 6	|DOM Manipulation				|[Description](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/Resources)			|[Lab](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/11.DOMManipulation-Lab)		|[Exercises](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/12.DOMManipulation-Exercises)			|![Progress](http://progressed.io/bar/100?title=completed)
+
+> **Exams**
+
+|Date				|Descriptions																											|Solutions
+|:-----------------:|:---------------------------------------------------------------------------------------------------------------------:|:----------:
+|18 November 2018	|[Description](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/Resources/Exam-18.11.2018)			|[Solution]()
