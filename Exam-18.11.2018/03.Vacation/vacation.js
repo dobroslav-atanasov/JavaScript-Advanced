@@ -6,6 +6,15 @@ class Vacation {
         this.kids = {};
     }
 
+    get numberOfChildren() {
+        let count = 0;
+        for (let grade of Object.keys(this.kids)) {
+            count += this.kids[grade].length;
+        }
+
+        return count;
+    }
+
     registerChild(name, grade, budget) {
         if (budget < this.budget) {
             return `${name}'s money is not enough to go on vacation to ${this.destination}.`;
@@ -45,21 +54,12 @@ class Vacation {
         }
     }
 
-    numberOfChildren() {
-        let count = 0;
-        for (let grade of Object.keys(this.kids)) {
-            count += this.kids[grade].length;
-        }
-
-        return count;
-    }
-
     toString() {
         let result = '';
-        if (this.numberOfChildren() === 0) {
+        if (this.numberOfChildren === 0) {
             result += `No children are enrolled for the trip and the organization of ${this.organizer} falls out...\n`;
         } else {
-            result += `${this.organizer} will take ${this.numberOfChildren()} children on trip to ${this.destination}\n`;
+            result += `${this.organizer} will take ${this.numberOfChildren} children on trip to ${this.destination}\n`;
             Object.keys(this.kids).sort((a, b) => function (a, b) {
                 return this.kids[a] - this.kids[b];
             });
