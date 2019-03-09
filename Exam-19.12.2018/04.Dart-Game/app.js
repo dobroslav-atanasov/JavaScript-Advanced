@@ -1,3 +1,0 @@
-function dart(){
-	// TODO
-}
