@@ -52,3 +52,5 @@ class Calculator {
         else return 'empty';
     }
 }
+
+module.exports = Calculator;
