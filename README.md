@@ -34,5 +34,6 @@ SoftUni course JavaScript Advanced - February 2018: All tasks with their solutio
 |15 July 2018		|[Description](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/Resources/Exam-15.07.2018)			|[Solution](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/Exam-15.07.2018)
 |18 November 2018	|[Description](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/Resources/Exam-18.11.2018)			|[Solution](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/Exam-18.11.2018)
 |19 December 2018	|[Description](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/Resources/Exam-19.12.2018)			|[Solution](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/Exam-19.12.2018)
+|17 March 2019		|[Description](https://github.com/dobroslav-atanasov/JavaScript-Advanced/tree/master/Resources/Exam-17.03.2019)			|[Solution]()
 
 
